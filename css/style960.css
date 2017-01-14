@@ -3,7 +3,7 @@
   margin: 0;
 }
 /*940*/
-@media all and ( min-device-width:960px){
+@media all and ( min-device-width:769px){
 .wrapper {
   width: 1582px;
   font-family: 'Open Sans Condensed', sans-serif;
