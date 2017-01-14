@@ -1,0 +1,134 @@
+@media all and ( max-device-width:768px){
+
+
+  header {
+    height: 808px;
+  }
+
+
+.head-menu {
+  padding-top: 140px;
+  margin-left: 545px;
+  background-image: url(../img/logo.png);
+  background-repeat: no-repeat;
+  background-position: 287px 68px;
+}
+
+.slide {
+  margin-top: -10px;
+  height: 400px;
+  background-position: 1280px;
+}
+
+.text {
+  padding-top: 90px;
+  margin-left: 867px;
+  width: 272px;
+}
+
+.slide-text1 {
+  font-size: 36px;
+}
+
+.slide-text2{
+  font-size: 20px;
+}
+
+.slide-text3 {
+  font-size: 13px;
+}
+/*NAV*/
+.nav1 {
+  background-image: url(../img/sprite768.png);
+  background-repeat: no-repeat;
+  background-position: 852px 73px;
+}
+.box1 {
+  margin-left: 909px;
+  width: 140px;
+  font-size: 13px;
+}
+.box1 h1 {
+  font-size: 19px;
+}
+
+#box2 {
+  margin-left: 1173px;
+}
+
+#box3{
+  margin-left: 1411px;
+}
+/*MAIN*/
+main {
+  height: 603px;
+  background-position: 816px 489px;
+  background-color: #f9f9f9;
+}
+
+.test {
+  margin-top: 100px;
+  margin-left: 831px;
+
+
+}
+
+.test1 {
+  font-size: 18px;
+}
+
+.test2 {
+  position:relative;
+  margin-left: 30px;
+  margin-top: 20px;
+  font-size: 18px;
+}
+.test3 {
+  font-size: 13px;
+  width: 229px;
+}
+
+.circle {
+  padding-top: 120px;
+  margin-left: 1225px;
+}
+/*ASIDE*/
+
+.pigbul1 {
+  width: 725px;
+  height: 190px;
+}
+
+.pig1 {
+  width: 200px;
+  font-size: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
