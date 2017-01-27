@@ -3,7 +3,7 @@
   margin: 0;
 }
 
-@media all and ( min-device-width:960px){
+@media all and ( min-device-width:960px) {
 .wrapper {
   width: 100%;
   font-family: 'Open Sans Condensed', sans-serif;
@@ -17,28 +17,30 @@ header {
 
 }
 .head-menu {
-  padding-left: 15%;
+  margin-left: 15%;
+  padding-left: 100px;
   width: 70%;
-  padding-top: 14px;
   height: 70px;
   text-align: center;
   background-image: url(../img/logo.png);
-  background-position:35%;
+  background-position:15%;
   background-repeat: no-repeat;
 }
 .menu {
   margin-left: 220px;
   padding-top: 10px;
-  height: 50px;
 }
-.menu li {
+.menu  ul li {
+  float: left;
+  position: relative;
+  display: block;
   list-style: none;
   display: inline;
 }
 .menu a {
   text-decoration: none;
   text-transform: uppercase;
-  font-size: 28px;
+  font-size: 25px;
   padding: 15px;
   color: #fff;
   text-shadow: 2px 2px #8b8a8a;
@@ -46,36 +48,33 @@ header {
 .menu a:hover {
   border-bottom: 3px solid #edbfff;
 }
+
 /*for drop down menu*/
 
 .menu .level {
   position: relative;
-  list-style: none;
+}
+.menu .tab {
+  padding: 5px;
 }
 .menu a {
   display: block;
-  padding: 10px;
-  text-decoration: none;
 }
 #Nunc {
   display: none;
+  position: absolute;
+  background: rgba(0, 0, 0, 0.8);
+  border-radius: 10px;
 }
-#Nunc li {
-  list-style: none;
-}
-
 #Proin {
   display: none;
   position: absolute;
-  margin-left: 60px;
+  margin-left: 100px;
+  background: rgba(0, 0, 0, 0.8);
+  border-radius: 10px;
 }
-#Proin li {
-  list-style: none;
-}
-
-
 /*for black line*/
-.slide {
+.slid {
   margin-top: 20px;
   width: 1582px;
   height: 350px;
@@ -90,18 +89,32 @@ header {
   margin-left: 400px;
   width: 500px;
 }
-.slide-text1 {
+.slid-text1 {
   font-weight: bold;
   font-size: 50px;
   color: #fefefe;
 }
-.slide-text2 {
+.slid-text2 {
   font-size: 27px;
   color: #edbfff;
 }
-.slide-text3 {
+.slid-text3 {
   font-size: 20px;
   color: #f6f6f6;
+}
+/*SLIDER*/
+.slider {
+  width: 100%;
+  height: 500px;
+  background-color: #ececec;
+}
+.slide {
+  margin-left: 15%;
+  width: 70%;
+}
+.img {
+  max-width: 100%;
+  height: auto;
 }
 /*NAV*/
 .nav {
