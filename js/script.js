@@ -1,5 +1,5 @@
 $('.slide').slick();
-$('.my-select').multiSelect();
+$('.my-select').multiSelect()
 
 function openTabs(evt, tabsName) {
 
